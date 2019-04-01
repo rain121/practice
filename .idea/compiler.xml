@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chapter02 -- boot" />
+        <module name="hello-consumer" />
+        <module name="hello-provider" />
+        <module name="service-discovery" />
+        <module name="ssw" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aaaaa" target="1.5" />
+      <module name="chapter02 -- boot" target="1.8" />
+      <module name="chapter03 -- hello-cloud" target="1.8" />
+      <module name="hello-consumer" target="1.8" />
+      <module name="hello-provider" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="service-discovery" target="1.8" />
+      <module name="ssw" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

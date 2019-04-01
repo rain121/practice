@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.3.RELEASE</version>
+    </parent>
+
+    <groupId>com.xiayu</groupId>
+    <artifactId>springbootExercise</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>SpringCloud Demo Projects -- Spring Boot</name>
+
+    <!--设置字符集-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <guava.version>20.0</guava.version>
+        <swagger.version>2.6.1</swagger.version>
+    </properties>
+    <!--相关的一些第三方jar-->
+    <dependencies>
+        <!-- Spring Boot -->
+        <dependency>
+            <!--在该jar包中默认以来是tomcat但是可以通过添加其他的jar来修改运行容器例如Jetty-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <!-- <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter</artifactId>
+             <exclusions>
+                 &lt;!&ndash;  排除springboot默认对logback的依赖 &ndash;&gt;
+                 <exclusion>
+                     <groupId>org.springframework.boot</groupId>
+                     <artifactId>spring-boot-starter-logging</artifactId>
+                 </exclusion>
+             </exclusions>
+         </dependency>
+         &lt;!&ndash; 增加对log4j的依赖 &ndash;&gt;
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-log4j</artifactId>
+         </dependency>-->
+
+        <!-- mysql -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.45</version>
+        </dependency>
+
+        <!-- guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+
+        <!-- swagger -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+
+        <!-- test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-ehcache</artifactId>
+            <version>5.0.12.Final</version>
+        </dependency>
+    </dependencies>
+
+    <developers>
+        <developer>
+            <id>CD826</id>
+            <name>CD826Dong</name>
+            <email>cd826Dong@gmail.com</email>
+            <roles>
+                <role>Project leader</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <id>Hu</id>
+            <name>hucw</name>
+            <email>hcw2175@163.com</email>
+            <roles>
+                <role>Project leader</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <!--组织管理信息-->
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/cd826/springcloud-book/issues</url>
+    </issueManagement>
+
+    <scm>
+        <url>https://github.com/cd826/springcloud-book</url>
+        <connection>scm:git:git://github.com/cd826/springcloud-book.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:cd826/springcloud-book.git</developerConnection>
+    </scm>
+
+    <!--打包专用-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
+</project>

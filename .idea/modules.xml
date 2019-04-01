@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter02 -- boot/chapter02 -- boot.iml" filepath="$PROJECT_DIR$/chapter02 -- boot/chapter02 -- boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/chapter03 -- hello-cloud.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/chapter03 -- hello-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/hello-consumer/hello-consumer.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/hello-consumer/hello-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/hello-provider/hello-provider.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/hello-provider/hello-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/parent/parent.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/service-discovery/service-discovery.iml" />
+    </modules>
+  </component>
+</project>
