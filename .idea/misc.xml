@@ -5,7 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/chapter02 -- boot/pom.xml" />
         <option value="$PROJECT_DIR$/chapter03 -- hello-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter04 -- eureka/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/chapter04 -- eureka/service-discovery/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

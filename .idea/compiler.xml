@@ -9,19 +9,28 @@
         <module name="chapter02 -- boot" />
         <module name="hello-consumer" />
         <module name="hello-provider" />
+        <module name="product-service" />
         <module name="service-discovery" />
+        <module name="service-discovery-first" />
         <module name="ssw" />
+        <module name="user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aaaaa" target="1.5" />
       <module name="chapter02 -- boot" target="1.8" />
       <module name="chapter03 -- hello-cloud" target="1.8" />
+      <module name="chapter04 -- eureka" target="1.5" />
       <module name="hello-consumer" target="1.8" />
       <module name="hello-provider" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="parentFirst" target="1.8" />
+      <module name="product-service" target="1.8" />
       <module name="service-discovery" target="1.8" />
+      <module name="service-discovery-first" target="1.8" />
+      <module name="servicediscovery" target="1.5" />
       <module name="ssw" target="1.5" />
+      <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

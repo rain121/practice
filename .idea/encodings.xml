@@ -7,5 +7,9 @@
     <file url="file://$PROJECT_DIR$/chapter03 -- hello-cloud/hello-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter03 -- hello-cloud/parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter03 -- hello-cloud/service-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter04 -- eureka/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter04 -- eureka/product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter04 -- eureka/service-discovery-first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter04 -- eureka/user-service" charset="UTF-8" />
   </component>
 </project>
