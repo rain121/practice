@@ -60,14 +60,14 @@ public class UserEndpoint {
         return this.userService.save(userDto);
     }
 
-    /**
-     * 删除用户
-     * @param id
-     * @return
-     */
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public boolean delete(@PathVariable Long id){
-        this.userService.delete(id);
-        return true;
-    }
+//    /**
+//     * 删除用户
+//     * @param id
+//     * @return
+//     */
+//    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+//    public boolean delete(@PathVariable Long id){
+//        this.userService.delete(id);
+//        return true;
+//    }
 }

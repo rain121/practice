@@ -17,6 +17,7 @@ import com.cd826dong.clouddemo.product.entity.Product;
 import com.cd826dong.clouddemo.product.entity.ProductComment;
 import com.cd826dong.clouddemo.product.repository.ProductCommentRepository;
 import com.cd826dong.clouddemo.product.repository.ProductRepository;
+import com.cd826dong.clouddemo.product.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,9 +48,11 @@ public class ProductEndpoint {
     @Autowired
     private ProductCommentRepository productCommentRepository;
 
+//    @Autowired
+//    @Qualifier(value = "restTemplate")
+//    private RestTemplate restTemplate;//可以通过其调用用户微服务
     @Autowired
-    @Qualifier(value = "restTemplate")
-    private RestTemplate restTemplate;//可以通过其调用用户微服务
+    private UserService userService;
 
     /**
      * 获取商品列表
@@ -84,7 +87,7 @@ public class ProductEndpoint {
         return commentList.stream().map((comment) -> {
             ProductCommentDto dto = new ProductCommentDto(comment);
             dto.setProduct(this.productRepository.findOne(comment.getProductId()));
-            dto.setAuthor(this.loadUser(comment.getAuthorId()));
+            dto.setAuthor(this.userService.load(comment.getAuthorId()));
             return dto;
         }).collect(Collectors.toList());
     }
@@ -94,8 +97,9 @@ public class ProductEndpoint {
      * @param userId 用户Id
      * @return
      */
-    protected UserDto loadUser(Long userId) {
-        UserDto userDto = this.restTemplate.getForEntity("http://userservice/users/{id}", UserDto.class, userId).getBody();
-        return userDto;
-    }
+//    protected UserDto loadUser(Long userId) {
+//        //就是没有对应的接口名称才叫做服务治理
+//        UserDto userDto = this.restTemplate.getForEntity("http://USERSERVICE/users/{id}", UserDto.class, userId).getBody();
+//        return userDto;
+//    }
 }
