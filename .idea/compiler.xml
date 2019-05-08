@@ -10,10 +10,13 @@
         <module name="hello-consumer" />
         <module name="hello-provider" />
         <module name="product-service" />
+        <module name="product-service-three" />
         <module name="service-discovery" />
         <module name="service-discovery-first" />
+        <module name="service-discovery-three" />
         <module name="ssw" />
         <module name="user-service" />
+        <module name="user-service-three" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,20 +25,25 @@
       <module name="chapter03 -- hello-cloud" target="1.8" />
       <module name="chapter04 -- eureka" target="1.5" />
       <module name="chapter04 -- eureka-feign" target="1.5" />
+      <module name="chapter04 -- eureka-ribbon" target="1.5" />
       <module name="hello-consumer" target="1.8" />
       <module name="hello-provider" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="parent-three" target="1.8" />
       <module name="parent-two" target="1.5" />
       <module name="parentFirst" target="1.8" />
       <module name="parentTwo" target="1.5" />
       <module name="product-service" target="1.8" />
+      <module name="product-service-three" target="1.8" />
       <module name="product-service-two" target="1.8" />
       <module name="service-discovery" target="1.8" />
       <module name="service-discovery-first" target="1.8" />
+      <module name="service-discovery-three" target="1.8" />
       <module name="service-discovery-two" target="1.8" />
       <module name="servicediscovery" target="1.5" />
       <module name="ssw" target="1.5" />
       <module name="user-service" target="1.8" />
+      <module name="user-service-three" target="1.8" />
       <module name="user-service-two" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -5,15 +5,20 @@
       <module fileurl="file://$PROJECT_DIR$/chapter02 -- boot/chapter02 -- boot.iml" filepath="$PROJECT_DIR$/chapter02 -- boot/chapter02 -- boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/chapter03 -- hello-cloud.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/chapter03 -- hello-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka/chapter04 -- eureka.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka/chapter04 -- eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka-ribbon/chapter04 -- eureka-ribbon.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka-ribbon/chapter04 -- eureka-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/hello-consumer/hello-consumer.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/hello-consumer/hello-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/hello-provider/hello-provider.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/hello-provider/hello-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/parent/parent.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka-ribbon/parent-three/parent-three.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka-ribbon/parent-three/parent-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka/parent/parentFirst.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka/parent/parentFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka/product-service/product-service.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka-ribbon/product-service-three/product-service-three.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka-ribbon/product-service-three/product-service-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter03 -- hello-cloud/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/chapter03 -- hello-cloud/service-discovery/service-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka/service-discovery-first/service-discovery-first.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka/service-discovery-first/service-discovery-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka-ribbon/service-discovery-three/service-discovery-three.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka-ribbon/service-discovery-three/service-discovery-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka/user-service/user-service.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter04 -- eureka-ribbon/user-service-three/user-service-three.iml" filepath="$PROJECT_DIR$/chapter04 -- eureka-ribbon/user-service-three/user-service-three.iml" />
     </modules>
   </component>
 </project>

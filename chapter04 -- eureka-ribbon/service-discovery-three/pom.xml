@@ -3,27 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
+        <artifactId>chapter04 -- eureka-ribbon</artifactId>
         <groupId>com.xiayu</groupId>
-        <artifactId>chapter04 -- eureka</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent</relativePath>
+        <relativePath>../parent-three</relativePath>
     </parent>
 
 
-    <artifactId>service-discovery</artifactId>
+    <artifactId>service-discovery-three</artifactId>
     <packaging>jar</packaging>
-    <name>SpringCloud Demo Projects(Eureka) -- Eureka Server</name>
+    <name>SpringCloud Demo Projects(Ribbon) -- Eureka Server</name>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-            <version>2.0.4.RELEASE</version>
         </dependency>
     </dependencies>
 
@@ -35,4 +31,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
